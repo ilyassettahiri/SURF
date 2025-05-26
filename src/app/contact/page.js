@@ -33,7 +33,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://surfinrabat.com/og-contact.jpg', // replace with actual OG image URL
+        url: '/favicon/android-chrome-512x512.png', // replace with actual OG image URL
         width: 1200,
         height: 630,
         alt: 'Contact Surf in Rabat',
@@ -45,7 +45,7 @@ export const metadata = {
     title: 'Contact Us | Surf in Rabat - Book Your Surf Lessons in Morocco',
     description:
       'Reach out to Surf in Rabat to book lessons, ask about surf packages, or speak with our team in Morocco.',
-    images: ['https://surfinrabat.com/og-contact.jpg'], // replace if needed
+    images: ['/favicon/android-chrome-512x512.png'], // replace if needed
   },
 };
 

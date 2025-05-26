@@ -34,7 +34,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://surfinrabat.com/og-team.jpg', // replace with actual OG image URL
+        url: '/favicon/android-chrome-512x512.png', // replace with actual OG image URL
         width: 1200,
         height: 630,
         alt: 'Surf in Rabat Surf Coaches',
@@ -46,7 +46,7 @@ export const metadata = {
     title: 'Meet Our Team | Surf in Rabat - Professional Surf Coaches in Morocco',
     description:
       'Led by national champion Chadi Lahrioui, our experienced surf coaches provide the highest quality instruction in Rabat.',
-    images: ['https://surfinrabat.com/og-team.jpg'], // replace with actual image
+    images: ['/favicon/android-chrome-512x512.png'], // replace with actual image
   },
 };
 

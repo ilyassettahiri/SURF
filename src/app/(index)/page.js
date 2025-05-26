@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://surfinrabat.com/og-cover.jpg', // replace with your actual OG image
+        url: '/favicon/android-chrome-512x512.png', // replace with your actual OG image
         width: 1200,
         height: 630,
         alt: 'Surfing in Rabat with Chadi Lahrioui',
@@ -47,7 +47,7 @@ export const metadata = {
     title: 'Surf in Rabat | Private Coaching & Surf School in Morocco',
     description:
       'Surf in Rabat offers expert coaching, stunning waves, and a welcoming surf community in Morocco. Book your lesson today.',
-    images: ['https://surfinrabat.com/og-cover.jpg'], // match your OG image
+    images: ['/favicon/android-chrome-512x512.png'], // match your OG image
   },
 };
 

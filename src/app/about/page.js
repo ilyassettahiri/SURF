@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://surfinrabat.com/og-about.jpg', // update to your actual image
+        url: '/favicon/android-chrome-512x512.png', // update to your actual image
         width: 1200,
         height: 630,
         alt: 'Surf in Rabat - About Us',
@@ -47,7 +47,7 @@ export const metadata = {
     title: 'About Us | Surf in Rabat - Surf School & Coaching in Morocco',
     description:
       'Discover the story and mission of Surf in Rabat — the heart of Morocco’s surf culture, training surfers of all levels.',
-    images: ['https://surfinrabat.com/og-about.jpg'], // update to match
+    images: ['/favicon/android-chrome-512x512.png'], // update to match
   },
 };
 

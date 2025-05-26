@@ -34,7 +34,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://surfinrabat.com/og-prices.jpg', // replace with your image
+        url: '/favicon/android-chrome-512x512.png', // replace with your image
         width: 1200,
         height: 630,
         alt: 'Surf in Rabat Prices and Packages',
@@ -46,7 +46,7 @@ export const metadata = {
     title: 'Prices & Packages | Surf in Rabat - Surf Lessons & Coaching in Morocco',
     description:
       'Affordable and flexible surf packages in Rabat. Check out our group, private, and multi-day coaching options.',
-    images: ['https://surfinrabat.com/og-prices.jpg'], // match OpenGraph image
+    images: ['/favicon/android-chrome-512x512.png'], // match OpenGraph image
   },
 };
 
