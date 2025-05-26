@@ -112,6 +112,7 @@ function ServiceItem({ service, index }) {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'brightness(0.7)',
+
         }}
       />
 
