@@ -22,18 +22,19 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: 'Zone UI Kit',
+  title: 'Surf in Rabat | Surf School & Private Coaching in Morocco',
   description:
-    'The ZONE is built on top of MUI, a powerful library that provides flexible, customizable, and easy-to-use components.',
-  keywords: 'react,material,kit,application,dashboard,admin,template',
+    'Surf in Rabat offers expert surf lessons and private coaching guided by Moroccan national champion Chadi Lahrioui. Perfect waves for all skill levels.',
+  keywords: 'surf rabat, morocco surf school, chadi lahrioui, surf coaching, surf lessons, private surf coach, beginner surf rabat, surf in morocco',
   manifest: '/manifest.json',
   icons: [
-    { rel: 'icon', url: '/favicon/favicon.ico' },
+    { rel: 'icon', url: '/favicon/favicon.png' },
     { rel: 'icon', type: 'image/png', sizes: '16x16', url: '/favicon/favicon-16x16.png' },
     { rel: 'icon', type: 'image/png', sizes: '32x32', url: '/favicon/favicon-32x32.png' },
     { rel: 'apple-touch-icon', sizes: '180x180', url: '/favicon/apple-touch-icon.png' },
   ],
 };
+
 
 export default function RootLayout({ children }) {
   return (
