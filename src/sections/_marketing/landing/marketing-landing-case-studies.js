@@ -38,13 +38,13 @@ export default function MarketingLandingCaseStudies({ caseStudies }) {
       <Stack
         spacing={3}
         sx={{
-           maxWidth: 780,
-          textAlign: { xs: 'center', md: 'unset' },
+
+          textAlign: { xs: 'center', md: 'center' },
         }}
       >
 
 
-        <Typography variant="h2">Experience the best water surfing</Typography>
+        <Typography variant="h1">Experience the best water surfing</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>Welcome to our surf school. Our team of professional surf trainers are ready to help you learn to enjoy the waves right from the start</Typography>
       </Stack>
@@ -102,17 +102,7 @@ export default function MarketingLandingCaseStudies({ caseStudies }) {
         )}
       </Grid>
 
-      <Stack alignItems={{ xs: 'center', md: 'flex-end' }}>
-        <Button
-          component={RouterLink}
-          href={paths.marketing.caseStudies}
-          size="large"
-          color="inherit"
-          endIcon={<Iconify icon="carbon:chevron-right" />}
-        >
-          View all
-        </Button>
-      </Stack>
+
     </Container>
   );
 }
@@ -133,7 +123,9 @@ function LargeItem({ caseStudy }) {
         gridTemplateColumns: {
           xs: 'repeat(1, 1fr)',
           md: 'repeat(2, 1fr)',
+
         },
+         bgcolor: 'white'
       }}
     >
       <Box sx={{ p: 0.75 }}>
@@ -154,15 +146,7 @@ function LargeItem({ caseStudy }) {
           </TextMaxLine>
         </div>
 
-        <Button
-          component={RouterLink}
-          href={paths.marketing.caseStudy}
-          size="small"
-          color="inherit"
-          endIcon={<Iconify icon="carbon:chevron-right" />}
-        >
-          Learn more
-        </Button>
+
       </Stack>
     </Paper>
   );
@@ -194,6 +178,7 @@ function SmallItem({ caseStudy, square }) {
           cursor: 'pointer',
           borderRadius: 2,
           overflow: 'hidden',
+           bgcolor: 'white'
         }}
       >
         <Stack

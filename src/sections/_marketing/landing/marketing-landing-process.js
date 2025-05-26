@@ -45,15 +45,15 @@ export default function MarketingLandingProcess() {
       <Stack
         spacing={3}
         sx={{
-          maxWidth: 680,
+
           mb: { xs: 8, md: 5 },
           mx: { xs: 'auto', md: 'unset' },
-          textAlign: { xs: 'center', md: 'unset' },
+          textAlign: { xs: 'center', md: 'center' },
         }}
       >
 
 
-        <Typography variant="h2">We teach surfers from any level</Typography>
+        <Typography variant="h1">We teach surfers from any level</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>
           Rabat is blessed with year round sunshine and amazing waves making it the perfect place for beginners learning to surf and experienced surfers hoping to score barrelling right hand point breaks.

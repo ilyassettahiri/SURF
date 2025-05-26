@@ -30,13 +30,13 @@ export default function TravelLandingTourFeatured({ tours }) {
       <Stack
         spacing={3}
         sx={{
-           maxWidth: 780,
-          textAlign: { xs: 'center', md: 'unset' },
+
+          textAlign: { xs: 'center', md: 'center' },
         }}
       >
 
 
-        <Typography variant="h2">Become a pro surfer</Typography>
+        <Typography variant="h1">Become a pro surfer</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>Ready to start new hobby right now?</Typography>
       </Stack>
@@ -45,11 +45,11 @@ export default function TravelLandingTourFeatured({ tours }) {
         sx={{
           display: 'grid',
           my: { xs: 8, md: 10 },
-          gap: { xs: 4, md: 3 },
+          gap: { xs: 4, md: 5 },
           gridTemplateColumns: {
             xs: 'repeat(1, 1fr)',
             sm: 'repeat(2, 1fr)',
-            md: 'repeat(4, 1fr)',
+            md: 'repeat(3, 1fr)',
           },
         }}
       >

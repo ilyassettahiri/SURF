@@ -20,12 +20,12 @@ export default function TravelTeam({ members }) {
         spacing={3}
         sx={{
           mx: 'auto',
-          maxWidth: 480,
+
           textAlign: 'center',
           mb: { xs: 8, md: 10 },
         }}
       >
-        <Typography variant="h2">Meet our trainers</Typography>
+        <Typography variant="h1">Meet our trainers</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>
           Get on Rabat Beach waters! Enjoy a place with perfect surfing conditions and our professional trainers.

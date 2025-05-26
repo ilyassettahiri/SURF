@@ -45,44 +45,14 @@ export default function TravelTourItem({ tour }) {
           position: 'absolute',
         }}
       >
-        <Stack
-          spacing={0.5}
-          direction="row"
-          sx={{
-            px: 1,
-            borderRadius: 0.75,
-            typography: 'subtitle2',
-            bgcolor: 'text.primary',
-            color: (theme) => (theme.palette.mode === 'light' ? 'common.white' : 'grey.800'),
-          }}
-        >
-          {priceSale > 0 && (
-            <Box
-              sx={{
-                color: 'grey.500',
-                textDecoration: 'line-through',
-                mr: 0.5,
-              }}
-            >
-              {fCurrency(priceSale)}
-            </Box>
-          )}
-          {fCurrency(price)}
-        </Stack>
 
-        <Checkbox
-          color="error"
-          checked={favorite}
-          onChange={handleChangeFavorite}
-          icon={<Iconify icon="carbon:favorite" />}
-          checkedIcon={<Iconify icon="carbon:favorite-filled" />}
-          sx={{ color: 'common.white' }}
-        />
+
+
       </Stack>
 
       <Image alt={slug} src={coverUrl} ratio="1/1" />
 
-      <Stack spacing={0.5} sx={{ p: 2.5 }}>
+      <Stack spacing={0.5} sx={{ p: 2.5, bgcolor: 'white' }}>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
           {location}
         </Typography>
@@ -94,9 +64,8 @@ export default function TravelTourItem({ tour }) {
         </Link>
       </Stack>
 
-      <Divider sx={{ borderStyle: 'dashed' }} />
 
-      <Stack direction="row" alignItems="center" sx={{ p: 2.5 }}>
+      <Stack direction="row" alignItems="center" sx={{ p: 2.5, bgcolor: 'white' }}>
         <Stack
           flexGrow={1}
           direction="row"

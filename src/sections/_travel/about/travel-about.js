@@ -42,7 +42,7 @@ export default function TravelAbout() {
           mx: 'auto',
           maxWidth: 560,
           textAlign: 'center',
-          pb: { xs: 5, md: 10 },
+          py: { xs: 5, md: 6 },
         }}
       >
         <Typography variant="h1">About us</Typography>

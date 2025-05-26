@@ -73,6 +73,7 @@ export default function TravelAboutOurVision() {
                   sx={{
                     p: 4,
                     mt: 4,
+                     bgcolor: 'white',
                     width: { md: 'calc(50% - 16px)' },
                     ...(firstVision && {
                       top: { md: 0 },

@@ -35,7 +35,7 @@ export default function ElearningLandingView() {
       <MarketingLandingCaseStudies caseStudies={_caseStudies.slice(-6)} />
 
 
-      <TravelLandingTourFeatured tours={_tours.slice(0, 4)} />
+      <TravelLandingTourFeatured tours={_tours.slice(0, 3)} />
 
 
       <MarketingLandingFaqs />

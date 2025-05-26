@@ -21,19 +21,20 @@ export default function ElearningContactInfo() {
         pb: { xs: 10, md: 15 },
       }}
     >
-      <Grid container spacing={3} justifyContent={{ md: 'space-between' }}>
-        <Grid xs={12} md={6} lg={4}>
           <Typography
-            variant="h2"
+            variant="h1"
             sx={{
-              mb: 5,
-              textAlign: { xs: 'center', md: 'left' },
+              my: 7,
+              textAlign: { xs: 'center', md: 'center' },
             }}
           >
             Get In Touch
           </Typography>
+      <Grid container spacing={3} justifyContent={{ md: 'space-between' }}>
+        <Grid xs={12} md={6} lg={4}>
 
-          <Stack spacing={3} alignItems={{ xs: 'center', md: 'flex-start' }}>
+
+          <Stack spacing={3} alignItems={{ xs: 'flex-start', md: 'flex-start' }}>
             <Stack spacing={1}>
               <Stack direction="row" alignItems="center" sx={{ typography: 'subtitle2' }}>
                 <Iconify icon="carbon:email" width={24} sx={{ mr: 1 }} /> Email
