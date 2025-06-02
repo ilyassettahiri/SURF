@@ -35,7 +35,6 @@ export default function ElearningLandingHero() {
 
   const mdUp = useResponsive('up', 'md');
 
-  const videoOpen = useBoolean();
 
   return (
     <>
@@ -51,7 +50,7 @@ export default function ElearningLandingHero() {
       >
         <Container maxWidth={false}
           sx={{
-            py: 15,
+            py: 5,
             display: { md: 'flex' },
             alignItems: { md: 'center' },
             height: { md: `100vh` },
@@ -79,21 +78,16 @@ export default function ElearningLandingHero() {
                 </Typography>
 
                 <Typography sx={{ color: 'text.secondary', mt: 3, mb: 5 }}>
-                  Experience incredible emotions discovering new amazing underwater worlds with our diving school.
+                  Experience incredible emotions discovering new amazing underwater worlds with our surfing school.
 
                 </Typography>
 
                 <Stack spacing={3} alignItems="center" direction={{ xs: 'column', md: 'row' }}>
-                  <Button color="inherit" size="large" variant="contained">
-                    Ready Start
+                  <Button color="info" size="large" variant="contained">
+                    Ready to Start
                   </Button>
 
-                  <Stack direction="row" alignItems="center" sx={{ typography: 'h6' }}>
-                    <Fab size="medium" color="info" onClick={videoOpen.onTrue} sx={{ mr: 1 }}>
-                      <Iconify width={24} icon="carbon:play" />
-                    </Fab>
-                    Watch Video
-                  </Stack>
+
                 </Stack>
 
 
@@ -110,7 +104,6 @@ export default function ElearningLandingHero() {
         </Container>
       </Box>
 
-      <PlayerDialog open={videoOpen.value} onClose={videoOpen.onFalse} videoPath={_mock.video(0)} />
     </>
   );
 }

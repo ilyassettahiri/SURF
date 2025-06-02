@@ -87,7 +87,6 @@ function ElearningHeroIllustration({ sx, ...other }) {
 
       <Pattern01 sx={{ left: 0, top: 0 }} />
       <Pattern02 sx={{ top: 0, left: 0, opacity: 0.24, transform: 'scale(1.2)' }} />
-      <Shape sx={{ position: 'absolute', right: 32, bottom: 32 }} />
     </Box>
   );
 }
